@@ -89,7 +89,7 @@
     <Content Include="log4net.mailappender.recipients.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="ig.log4net.readme.txt" />
+    <Content Include="readme.txt" />
     <None Include="app.config" />
     <Content Include="log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

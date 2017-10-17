@@ -44,6 +44,6 @@
 </dependencies>
   </metadata>
   <files>
-    <file src="ig.log4net.readme.txt" target="" />
+    <file src="readme.txt" target="" />
   </files>
 </package>
