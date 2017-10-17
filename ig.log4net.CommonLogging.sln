@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ig.log4net.Logging", "Logging\ig.log4net.Logging.csproj", "{D461A470-D295-4141-B07B-8DCAA6A0EAFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ig.log4net.Extensions", "Extensions\ig.log4net.Extensions.csproj", "{C91B2F2E-4E32-4B76-9E84-1B0603EA187C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{0DE07809-B88B-414A-AB9A-64CCFF656485}"
+	ProjectSection(SolutionItems) = preProject
+		ConnectionStrings.config = ConnectionStrings.config
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ig.log4net.Settings", "Settings\ig.log4net.Settings.csproj", "{EBDDCA95-AE85-40B0-BAFB-EA1850C16D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ig.log4net.Caching", "Caching\ig.log4net.Caching.csproj", "{BD96BC5F-9F6F-4168-8D68-924ECDEACBAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ig.log4net.XmlTools", "XmlTools\ig.log4net.XmlTools.csproj", "{42D3C8D0-56E9-418F-9274-689209B4F169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ig.log4net.UnitySetup", "UnitySetup\ig.log4net.UnitySetup.csproj", "{7990D806-F548-48AD-9258-74651FE18AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D461A470-D295-4141-B07B-8DCAA6A0EAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D461A470-D295-4141-B07B-8DCAA6A0EAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D461A470-D295-4141-B07B-8DCAA6A0EAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D461A470-D295-4141-B07B-8DCAA6A0EAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C91B2F2E-4E32-4B76-9E84-1B0603EA187C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91B2F2E-4E32-4B76-9E84-1B0603EA187C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91B2F2E-4E32-4B76-9E84-1B0603EA187C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91B2F2E-4E32-4B76-9E84-1B0603EA187C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDDCA95-AE85-40B0-BAFB-EA1850C16D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDDCA95-AE85-40B0-BAFB-EA1850C16D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDDCA95-AE85-40B0-BAFB-EA1850C16D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDDCA95-AE85-40B0-BAFB-EA1850C16D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD96BC5F-9F6F-4168-8D68-924ECDEACBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD96BC5F-9F6F-4168-8D68-924ECDEACBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD96BC5F-9F6F-4168-8D68-924ECDEACBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD96BC5F-9F6F-4168-8D68-924ECDEACBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D3C8D0-56E9-418F-9274-689209B4F169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D3C8D0-56E9-418F-9274-689209B4F169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D3C8D0-56E9-418F-9274-689209B4F169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D3C8D0-56E9-418F-9274-689209B4F169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7990D806-F548-48AD-9258-74651FE18AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7990D806-F548-48AD-9258-74651FE18AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7990D806-F548-48AD-9258-74651FE18AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7990D806-F548-48AD-9258-74651FE18AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F5EE30D-F59F-44AF-9F6A-E5FA732D9341}
+	EndGlobalSection
+EndGlobal
