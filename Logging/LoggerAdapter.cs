@@ -19,7 +19,6 @@ namespace ig.log4net.Logging
             var configFileName = Path.Combine(typeof(LoggerAdapter).AssemblyDirectory(), "log4net.config");
             var xml = File.ReadAllText(configFileName);
             var log4NetParams = Serialization.Deserialize<Log4NetConfig>(xml).Param;
-            Console.WriteLine("params read from Log4NetConfig: " + string.Join(" ", log4NetParams.Select(x => $@"{{{x.Name}=>{x.Value}}}")));
             _log = log;
             MailNotificationLevel = log4NetParams.FirstOrDefault(x => x.Name == nameof(MailNotificationLevel))?.Value.GetTOrDefault(MailNotificationLevel.Error) ?? MailNotificationLevel.Error;
             AlwaysNotifyByMailOnException = log4NetParams.FirstOrDefault(x => x.Name == nameof(AlwaysNotifyByMailOnException))?.Value.GetTOrDefault(true) ?? true;
